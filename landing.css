@@ -1,0 +1,36 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 1fr;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: #0B0D10;
+    z-index: 100;
+    
+}
+.Signup{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.20s;
+    cursor: pointer;
+}
+.Signup:hover{
+    background-color: black;
+    border-style: solid;
+    border-width: thin;
+    border-color: white;
+    color: white;
+}
+
+
