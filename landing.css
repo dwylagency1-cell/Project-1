@@ -55,4 +55,39 @@
     border-radius: 30px;
     
 }
+.div-para{
+    position: absolute;
+    background-color: #07090b;
+    left: 20px;
+    width: 600px;
+    height: 500px;
+    top: 200px;
+}
+.div_inside_div{
+    width: 400px;
+    position: relative;
+    display: flex;
+    bottom: 100px;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.JOIN{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    background-color: #07090b;
+    color: white;
+    font-size: 15px;
+    font-family: arial;
+    transition: 0.20s;
+}
+.JOIN:hover{
+    background-color: white;
+    color: black;
+}
 
