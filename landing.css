@@ -81,3 +81,19 @@
     width: 700px;
     height: 500px;
 }
+.div-top{
+    display: grid;
+    background-color: lightblue;
+    height: 250px;
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-template-columns: 1fr ;
+}
+.div-inside-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 130px;
+    column-gap: 20px;
+    background-color: lightgreen;
+}
