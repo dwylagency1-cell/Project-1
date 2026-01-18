@@ -136,3 +136,30 @@
     border-radius: 20px;
     bottom: -100px;
 }
+.div-grid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    margin-left: 50px;
+    margin-top: 300px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.image-inside-div{
+    width: 270px;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.para-in-div{
+    width: 270px;
+    border-style: solid;
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+}
+
