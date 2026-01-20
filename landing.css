@@ -154,13 +154,40 @@
 }
 .para-in-div{
     width: 270px;
+    position: relative;
     border-style: solid;
     display: grid;
     grid-template-columns: 1fr;
     height: 120px;
     margin-left: 10px;
     margin-right: 10px;
-    
-    
+}
+.tool-tip{
+    position: absolute;
+    height: 140px;
+    width: 250px;
+    background-color: #07090b;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    z-index: 100;
+    right: -100px;
+    bottom: -50px;
+    opacity: 0;
+    transition: opacity 0.20s;
+    pointer-events: none;
+}
+.para-in-div:hover .tool-tip{
+    opacity: 100;
+}
+.para-in-tool-tip{
+    width: 250px;
+    height: 40px;
+}
+.paras-in-tool-tip{
+    width: 250px;
+    position: relative;
+    bottom: 20px;
+    height: 80px;
 }
 
