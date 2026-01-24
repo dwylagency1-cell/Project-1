@@ -190,4 +190,27 @@
     bottom: 20px;
     height: 80px;
 }
+.feedback{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-left: 50px;
+    background-color: lightblue;
+    margin-top: 400px;
+    margin-right: 50px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.div_in_feedback{
+    background-color: lightpink;
+    height: 250px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    background-color: #1d1e20;
+}
+.feedback_img{
+    width: 80px;
+    border-radius: 40px;
+    height: 80px;
+}
 
