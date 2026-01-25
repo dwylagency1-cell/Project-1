@@ -194,23 +194,22 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     margin-left: 50px;
-    background-color: lightblue;
     margin-top: 400px;
     margin-right: 50px;
     column-gap: 20px;
     row-gap: 20px;
 }
 .div_in_feedback{
-    background-color: lightpink;
-    height: 250px;
+    height: 240px;
     border-style: solid;
     border-color: white;
-    border-radius: 20px;
-    background-color: #1d1e20;
+    border-radius: 10px;
+    background-color: #07090b;
 }
 .feedback_img{
     width: 80px;
     border-radius: 40px;
     height: 80px;
+    margin-left: 10px;
 }
 
