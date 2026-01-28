@@ -221,4 +221,33 @@
     background-color: lightblue;
     height: 1500px;
 }
+.access{
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    width: 245px;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 100px;
+}
+.div_access{
+    background-color: lightgoldenrodyellow;
+    width: 50px;
+    height: 100px;
+}
+.more_div_access{
+    background-color: lightcoral;
+    height: 100px;
+    width: 200px;
+}
+.tick2{
+    width: 30px;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+.access_para{
+    color: white;
+    font-family: arial;
+    
+}
 
