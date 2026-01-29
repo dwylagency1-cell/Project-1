@@ -235,11 +235,23 @@
     width: 50px;
     height: 100px;
 }
+.div_access_more{
+    background-color: lightgoldenrodyellow;
+    width: 50px;
+    height: 120px;
+    
+}
 .more_div_access{
     background-color: lightcoral;
     height: 100px;
     width: 200px;
 }
+.more_div_access_more{
+    background-color: lightcoral;
+    height: 120px;
+    width: 200px;
+}
+
 .tick2{
     width: 30px;
     margin-left: 9px;
