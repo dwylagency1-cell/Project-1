@@ -198,7 +198,7 @@
     column-gap: 20px;
     row-gap: 20px;
     position: relative;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .div_in_feedback{
     height: 240px;
@@ -214,10 +214,12 @@
     margin-left: 10px;
 }
 .pricing{
+    
     display: flex;
+    position: relative;
     column-gap: 20px;
     justify-content: center;
-    height: 1500px;
+    height: 1300px;
 }
 .access{
     display: flex;
@@ -231,13 +233,25 @@
     margin-top: 20px;
     height: 100px;
 }
+.access_more{
+    display: flex;
+    flex-direction: row;
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: thin;
+    width: 245px;
+    margin-left: 8px;
+    margin-top: 20px;
+    height: 130px;
+
+}
 .div_access{
     
     width: 50px;
     height: 100px;
 }
 .div_access_more{
-    background-color: lightgoldenrodyellow;
     width: 50px;
     height: 120px;
     
@@ -248,7 +262,6 @@
     width: 200px;
 }
 .more_div_access_more{
-    background-color: lightcoral;
     height: 120px;
     width: 200px;
 }
@@ -287,11 +300,29 @@
     padding-right: 40px;
     border-radius: 10px;
     border: none;
+    font-weight: bold;
     background-color: white;
+    transition: 0.20s;
+}
+.free:hover{
+    background-color: #07090b;
+    color: white;
+    border-style: solid;
+    border-width: thin;
+    border-color: white;
 }
 .everything{
     width: 240px;
     margin-left: 10px;
     height: 70px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 400px;
+    column-gap: 10px;
+    height: 600px;
     
+}
+.left{
+    width: 400px;
 }
