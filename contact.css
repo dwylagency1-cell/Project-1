@@ -1,0 +1,81 @@
+.contact{
+    
+    margin-left: 100px;
+    width: 450px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.div_one{
+    
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    font-size: 46px;
+    
+}
+.div_two{
+    
+    height: 100px;
+   
+}
+.div_three{
+    height: 200px;
+    display: flex;
+    row-gap: 20px;
+    justify-content: left;
+    flex-direction: column;
+}
+.imput{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    border-radius: 10px;
+    background-color: #07090b;
+    padding-left: 10px;
+    color: white;
+
+}
+.send{
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 200px;
+}
+.button{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #07090b;
+    color: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    transition: 0.20s;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+.contact_img{
+    background-color: lightblue;
+    position: absolute;
+    width: 650px;
+    height: 600px;
+    margin-left: 700px;
+
+    
+}
+.dwyl{
+    width: 650px;
+    height: 600px;
+    
+}
