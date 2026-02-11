@@ -1,0 +1,7 @@
+.About_Dwyl{
+    display: grid;
+    background-color: lightblue;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 20px;
+    
+}
