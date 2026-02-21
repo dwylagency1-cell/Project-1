@@ -1,7 +1,22 @@
 .About_Dwyl{
     display: grid;
-    background-color: lightblue;
+    margin-top: 50px;
     grid-template-columns: 1fr 1fr ;
     column-gap: 20px;
     
+}
+.who_is_dwyl_for{
+    display: grid;
+    margin-top: 50px;
+    
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 20px;
+
+}
+.list{
+    position: relative;
+    bottom: 80px;
+    font-size: 20px;
+    font-family: arial;
+    color: white;
 }
